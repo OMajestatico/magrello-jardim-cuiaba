@@ -72,6 +72,12 @@
   }));
   addEventListener('keydown', e => { if (e.key === 'Escape' && menu?.classList.contains('open')) closeMenu(); });
 
+  const backTop = $('.back-top');
+  backTop?.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ left: 0, top: 0, behavior: reduced ? 'auto' : 'smooth' });
+  });
+
   // Carousel engine: one real stage at a time, centered, mandatory snap and clickable dots.
   const carouselByTrack = new Map();
 
