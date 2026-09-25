@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7efe9">
+  <meta name="description" content="Magrello Jardim Cuiabá — confeitaria, cafeteria e restaurante em Cuiabá.">
+  <title>Magrello • Jardim Cuiabá</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar" id="topo">
+    <a class="brand" href="#inicio" aria-label="Magrello, início">
+      <span class="brand-mark">M</span>
+      <span class="brand-copy"><b>MAGRELLO</b><small>JARDIM CUIABÁ</small></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#sabores">Sabores</a>
+      <a href="#casa">A casa</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#visite">Visite</a>
+    </nav>
+
+    <div class="top-actions">
+      <a class="icon-btn" href="tel:+556536230959" aria-label="Ligar para Magrello"><i data-lucide="phone"></i></a>
+      <button class="menu-btn" type="button" aria-label="Abrir menu" aria-controls="mobileMenu" aria-expanded="false">
+        <i data-lucide="menu"></i><span>Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="menu-backdrop" data-close-menu></div>
+    <div class="menu-panel">
+      <div class="menu-head">
+        <span class="eyebrow">Navegue</span>
+        <button class="menu-close" type="button" aria-label="Fechar menu" data-close-menu><i data-lucide="x"></i></button>
+      </div>
+      <div class="menu-links">
+        <a href="#inicio"><span>01</span>Início<i data-lucide="arrow-up-right"></i></a>
+        <a href="#sabores"><span>02</span>Sabores<i data-lucide="arrow-up-right"></i></a>
+        <a href="#casa"><span>03</span>A casa<i data-lucide="arrow-up-right"></i></a>
+        <a href="#experiencia"><span>04</span>Experiência<i data-lucide="arrow-up-right"></i></a>
+        <a href="#visite"><span>05</span>Visite<i data-lucide="arrow-up-right"></i></a>
+      </div>
+      <div class="menu-foot">R. das Papoulas, 70 • Jardim Cuiabá</div>
+    </div>
+  </div>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-a" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-b" aria-hidden="true"></div>
+
+      <div class="hero-copy reveal">
+        <p class="kicker"><span></span> confeitaria • café • encontros</p>
+        <h1>Doce é<br><em>ficar.</em></h1>
+        <p class="hero-lead">Uma pausa delicada em Cuiabá, entre cafés, bolos, vitrines e aquele tipo de mesa que faz a conversa durar mais.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="#sabores">Conhecer a casa <i data-lucide="arrow-down-right"></i></a>
+          <a class="btn btn-whatsapp" href="https://wa.me/5565984089679?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Magrello%20Jardim%20Cuiab%C3%A1" target="_blank" rel="noopener">
+            <img src="whatsapp.png" alt="" aria-hidden="true"> Chamar no WhatsApp
+          </a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>4,4</strong><span><i data-lucide="star"></i> avaliação no Google</span></div>
+          <div><strong>Jardim Cuiabá</strong><span><i data-lucide="map-pin"></i> Cuiabá • MT</span></div>
+        </div>
+      </div>
+
+      <div class="hero-stage reveal" data-delay="120">
+        <figure class="hero-photo tilt-card">
+          <img src="hero.jpg" alt="Interior da Magrello Jardim Cuiabá com vitrine de doces" loading="eager">
+          <figcaption><span>Casa Magrello</span><i data-lucide="sparkles"></i></figcaption>
+        </figure>
+        <figure class="float-card float-cake tilt-card" aria-hidden="true">
+          <img src="cake-berries.jpg" alt="">
+        </figure>
+        <div class="float-seal" aria-hidden="true"><span>feito para</span><b>saborear</b><i data-lucide="asterisk"></i></div>
+      </div>
+
+      <a href="#sabores" class="scroll-hint" aria-label="Rolar para sabores"><span>scroll</span><i data-lucide="chevron-down"></i></a>
+    </section>
+
+    <section class="intro section-pad reveal">
+      <div class="intro-number">01</div>
+      <div class="intro-copy">
+        <span class="eyebrow">Uma casa de detalhes</span>
+        <h2>Elegância sem pressa.<br><em>Sabor sem cerimônia.</em></h2>
+      </div>
+      <p class="intro-text">O ambiente clássico da Magrello pede um site com a mesma linguagem: tons quentes, flores, madeira, porcelana e movimento suave. Nada de catálogo sem alma, pq humanidade já inventou planilha demais.</p>
+    </section>
+
+    <section class="flavours section-pad" id="sabores">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Seleção da casa</span>
+          <h2>Momentos com<br><em>gosto de Magrello</em></h2>
+        </div>
+        <div class="carousel-controls" aria-label="Controles do carrossel">
+          <button type="button" data-scroll-prev="#flavourTrack" aria-label="Anterior"><i data-lucide="arrow-left"></i></button>
+          <button type="button" data-scroll-next="#flavourTrack" aria-label="Próximo"><i data-lucide="arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div class="horizontal-wrap reveal" data-delay="100">
+        <div class="card-track drag-scroll" id="flavourTrack" tabindex="0" aria-label="Categorias da Magrello">
+          <article class="flavour-card tilt-card">
+            <img src="cake-berries.jpg" alt="Fatia de bolo com morangos">
+            <div class="shade"></div><div class="flavour-copy"><span>01</span><h3>Bolos & tortas</h3><p>camadas delicadas, festas e pausas merecidas</p><i data-lucide="arrow-up-right"></i></div>
+          </article>
+          <article class="flavour-card tilt-card">
+            <img src="bombons.jpg" alt="Seleção de bombons em bandeja">
+            <div class="shade"></div><div class="flavour-copy"><span>02</span><h3>Doces & bombons</h3><p>pequenos, bonitos e perigosamente fáceis de repetir</p><i data-lucide="arrow-up-right"></i></div>
+          </article>
+          <article class="flavour-card tilt-card">
+            <img src="cafe.jpg" alt="Xícara de café servida à mesa">
+            <div class="shade"></div><div class="flavour-copy"><span>03</span><h3>Cafés</h3><p>do primeiro gole à conversa que emenda outra</p><i data-lucide="arrow-up-right"></i></div>
+          </article>
+          <article class="flavour-card tilt-card">
+            <img src="sandwich.jpg" alt="Sanduíche servido em prato branco">
+            <div class="shade"></div><div class="flavour-copy"><span>04</span><h3>Salgados & lanches</h3><p>para quando só o doce, tragicamente, não resolve</p><i data-lucide="arrow-up-right"></i></div>
+          </article>
+          <article class="flavour-card tilt-card">
+            <img src="frappe.jpg" alt="Bebida gelada com chocolate e chantilly">
+            <div class="shade"></div><div class="flavour-copy"><span>05</span><h3>Bebidas</h3><p>geladas, cremosas e feitas para acompanhar a vitrine</p><i data-lucide="arrow-up-right"></i></div>
+          </article>
+        </div>
+        <div class="track-dots" id="flavourDots" aria-label="Etapas do carrossel"></div>
+        <p class="drag-tip"><i data-lucide="move-horizontal"></i> arraste para explorar</p>
+      </div>
+    </section>
+
+    <section class="signature section-pad" id="experiencia">
+      <div class="signature-photo reveal tilt-card">
+        <img src="cake-passion.jpg" alt="Bolo da Magrello em destaque">
+        <div class="photo-label"><span>feito para celebrar</span><b>Magrello</b></div>
+      </div>
+      <div class="signature-copy reveal" data-delay="140">
+        <span class="eyebrow">Confeitaria com presença</span>
+        <h2>Tem dias que pedem<br><em>uma fatia bonita.</em></h2>
+        <p>De um café rápido a uma comemoração inteira, a proposta é simples: transformar coisa comum em memória boa. E, aparentemente, colocar flores em volta ajuda bastante.</p>
+        <div class="feature-grid">
+          <div><i data-lucide="cake-slice"></i><b>Confeitaria</b><span>bolos, tortas e doces</span></div>
+          <div><i data-lucide="coffee"></i><b>Cafeteria</b><span>cafés e bebidas</span></div>
+          <div><i data-lucide="utensils"></i><b>Restaurante</b><span>lanches e refeições</span></div>
+          <div><i data-lucide="gift"></i><b>Encomendas</b><span>para presentear e celebrar</span></div>
+        </div>
+        <a class="text-link" href="tel:+556536230959">Falar com a unidade <i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </section>
+
+    <section class="house" id="casa">
+      <div class="section-pad house-head reveal">
+        <span class="eyebrow">Jardim Cuiabá</span>
+        <h2>Uma casa que já<br><em>faz parte da cidade.</em></h2>
+        <p>Clássica, clara e cheia de detalhes em rosa, madeira e porcelana. O tipo de lugar que rende café, foto e “só mais cinco minutinhos” por uns quarenta minutos.</p>
+      </div>
+
+      <div class="gallery-track drag-scroll reveal" id="galleryTrack" tabindex="0" aria-label="Fotos do ambiente da Magrello">
+        <figure class="gallery-card wide"><img src="interior-1.jpg" alt="Ambiente interno com mesas e janelas altas"><figcaption>luz natural <i data-lucide="sun"></i></figcaption></figure>
+        <figure class="gallery-card"><img src="interior-2.jpg" alt="Mesa junto à janela no interior"><figcaption>detalhes <i data-lucide="flower-2"></i></figcaption></figure>
+        <figure class="gallery-card"><img src="interior-4.jpg" alt="Balcão com produtos e flores"><figcaption>vitrine <i data-lucide="sparkles"></i></figcaption></figure>
+        <figure class="gallery-card wide"><img src="interior-5.jpg" alt="Salão da Magrello Jardim Cuiabá"><figcaption>a casa <i data-lucide="home"></i></figcaption></figure>
+        <figure class="gallery-card"><img src="facade.jpg" alt="Fachada da unidade Jardim Cuiabá"><figcaption>Jardim Cuiabá <i data-lucide="map-pin"></i></figcaption></figure>
+      </div>
+      <div class="section-pad gallery-bottom">
+        <div class="track-dots" id="galleryDots" aria-label="Etapas do carrossel"></div>
+        <div class="carousel-controls">
+          <button type="button" data-scroll-prev="#galleryTrack" aria-label="Foto anterior"><i data-lucide="arrow-left"></i></button>
+          <button type="button" data-scroll-next="#galleryTrack" aria-label="Próxima foto"><i data-lucide="arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-band" aria-label="Destaque">
+      <div class="marquee" aria-hidden="true">
+        <span>CAFÉ • BOLOS • DOCES • ENCONTROS • MAGRELLO • CUIABÁ • </span>
+        <span>CAFÉ • BOLOS • DOCES • ENCONTROS • MAGRELLO • CUIABÁ • </span>
+      </div>
+      <div class="quote-inner reveal">
+        <i data-lucide="quote"></i>
+        <blockquote>“Sofisticado e aconchegante.”</blockquote>
+        <span>avaliação de cliente no Google</span>
+      </div>
+    </section>
+
+    <section class="visit section-pad" id="visite">
+      <div class="visit-copy reveal">
+        <span class="eyebrow">Faça uma visita</span>
+        <h2>Seu próximo café<br><em>pode ser aqui.</em></h2>
+        <div class="contact-list">
+          <a href="https://www.google.com/maps/search/?api=1&query=Magrello%20Jardim%20Cuiab%C3%A1%20R.%20das%20Papoulas%2070" target="_blank" rel="noopener"><i data-lucide="map-pin"></i><span><b>Endereço</b>R. das Papoulas, 70<br>Jardim Cuiabá • Cuiabá/MT</span><i data-lucide="arrow-up-right"></i></a>
+          <a href="tel:+556536230959"><i data-lucide="phone"></i><span><b>Telefone</b>(65) 3623-0959</span><i data-lucide="arrow-up-right"></i></a>
+          <a href="http://www.magrello.com.br/" target="_blank" rel="noopener"><i data-lucide="globe-2"></i><span><b>Site oficial</b>magrello.com.br</span><i data-lucide="arrow-up-right"></i></a>
+        </div>
+        <a class="btn btn-whatsapp large" href="https://wa.me/5565984089679?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Magrello%20Jardim%20Cuiab%C3%A1" target="_blank" rel="noopener"><img src="whatsapp.png" alt="" aria-hidden="true"> Chamar no WhatsApp</a>
+      </div>
+
+      <div class="map-card reveal" data-delay="120">
+        <iframe title="Mapa da Magrello Jardim Cuiabá" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-56.1187%2C-15.6002%2C-56.1067%2C-15.5904&layer=mapnik&marker=-15.5953028%2C-56.1127465"></iframe>
+        <div class="map-overlay">
+          <span><i data-lucide="map-pinned"></i> Jardim Cuiabá</span>
+          <a href="https://www.google.com/maps/search/?api=1&query=-15.5953028,-56.1127465" target="_blank" rel="noopener">Abrir no Google Maps <i data-lucide="arrow-up-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-mark">M</span><div><b>MAGRELLO</b><small>JARDIM CUIABÁ</small></div></div>
+    <p>Confeitaria • Cafeteria • Restaurante</p>
+    <a href="#topo" class="back-top">Voltar ao topo <i data-lucide="arrow-up"></i></a>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
